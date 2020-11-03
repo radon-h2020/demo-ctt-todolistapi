@@ -1,0 +1,9 @@
+{
+  "name": "ServerlessToDoList-DeploymentTest",
+  "repository_url": "ServerlessToDoList",
+  "sut_tosca_path": "todolist.csar",
+  "ti_tosca_path": "deploymentTestAgent.csar",
+  "ti_inputs_path": "inputs.yaml",
+  "test_id": "test_1",
+  "result_destination_path": "serverless-test-results.zip"
+}
