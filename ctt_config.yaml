@@ -5,5 +5,9 @@
   "ti_tosca_path": "deploymentTestAgent.csar",
   "ti_inputs_path": "inputs.yaml",
   "test_id": "test_1",
-  "result_destination_path": "serverless-test-results.zip"
+  "result_destination_path": "serverless-test-results.zip",
+  # "test_target_hostname": "google.com",
+  # "test_target_path": "/",
+  # "test_target_use_https": "true",
+  # "test_target_port": "443",
 }
