@@ -1,7 +1,7 @@
 {
   "name": "ServerlessToDoList-JMeterTest",
   "repository_url": "https://github.com/radon-h2020/demo-ctt-todolistapi.git",
-  "sut_tosca_path": "jmeter/experiment/ServerlessToDoListAPI.csar",
+  "sut_tosca_path": "jmeter/experiment/T001/T001.csar",
   "ti_tosca_path": "jmeter/experiment/JMeterMasterOnlyEC2.csar",
   "ti_inputs_path": "jmeter/experiment/ti_inputs.yaml",
   "sut_inputs_path": "jmeter/experiment/T001/sut_inputs.yaml",  
