@@ -1,0 +1,6 @@
+---
+vpc_subnet_id: "subnet-04706a8b41caccfcc"
+ssh_key_name: "awsec2"
+ssh_key_file: "/tmp/aws-ec2"
+...
+
