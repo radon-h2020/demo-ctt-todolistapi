@@ -1,0 +1,31 @@
+2021-05-31 11:28:38,596 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-05-31 11:28:38,616 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2021-05-31 11:28:38,619 INFO o.a.j.JMeter: Loading system properties from: /opt/jmeter/bin/system.properties
+2021-05-31 11:28:38,625 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2021-05-31 11:28:38,625 INFO o.a.j.JMeter: Version 5.4.1
+2021-05-31 11:28:38,626 INFO o.a.j.JMeter: java.version=11.0.11
+2021-05-31 11:28:38,626 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2021-05-31 11:28:38,626 INFO o.a.j.JMeter: os.name=Linux
+2021-05-31 11:28:38,626 INFO o.a.j.JMeter: os.arch=amd64
+2021-05-31 11:28:38,626 INFO o.a.j.JMeter: os.version=5.12.8-arch1-1
+2021-05-31 11:28:38,626 INFO o.a.j.JMeter: file.encoding=UTF-8
+2021-05-31 11:28:38,626 INFO o.a.j.JMeter: java.awt.headless=true
+2021-05-31 11:28:38,626 INFO o.a.j.JMeter: Max memory     =1073741824
+2021-05-31 11:28:38,626 INFO o.a.j.JMeter: Available Processors =8
+2021-05-31 11:28:38,634 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-05-31 11:28:38,634 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-05-31 11:28:38,634 INFO o.a.j.JMeter: JMeterHome=/opt/jmeter
+2021-05-31 11:28:38,634 INFO o.a.j.JMeter: user.dir  =/home/duelle/Repositories/git/radon-h2020/demo-ctt-todolistapi/jmeter/experiment/T100
+2021-05-31 11:28:38,634 INFO o.a.j.JMeter: PWD       =/home/duelle/Repositories/git/radon-h2020/demo-ctt-todolistapi/jmeter/experiment/T100
+2021-05-31 11:28:38,635 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: dwork FullName: dwork.localdomain
+2021-05-31 11:28:38,638 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/home/duelle/Repositories/git/radon-h2020/demo-ctt-todolistapi/jmeter/experiment/T100/dashboard'
+2021-05-31 11:28:38,642 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2021-05-31 11:28:38,642 ERROR o.a.j.JMeter: An error occurred: 
+java.lang.IllegalArgumentException: Cannot read test results file : sample_results.jtl
+	at org.apache.jmeter.report.dashboard.ReportGenerator.<init>(ReportGenerator.java:130) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.JMeter.start(JMeter.java:557) [ApacheJMeter_core.jar:5.4.1]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:254) [ApacheJMeter.jar:5.4.1]
