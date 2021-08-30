@@ -15,7 +15,7 @@ The goal is to compare two different configurations of the SUT with respect to s
 ## Artifact description:
 * *01_CTT_Execution*: The CTT configuration files and a script to run the experiment for one test execution (either with or without scaling enabled).
 * *02_CTT_Execution_Results*: The results returned by CTT for all tests of both test executions.
-* *03_PPTAM_Import*: A tool to convert the JMeter logs to the format used by PPTAM, the converted results, as well as the (slightly customized) PPTAM toolchain.
+* *03_PPTAM_Import*: A tool to convert the JMeter logs to the format used by PPTAM, the converted results, as well as the (slightly customized) [PPTAM toolchain](https://github.com/pptam/pptam-tool).
 * *04_PPTAM_Results*: The Jupyter Notebook applying the PPTAM approach containing all steps for the retrieval of the results presented in the *Deliverable 6.5: Final Assessment Report*.
 
 ## References:
