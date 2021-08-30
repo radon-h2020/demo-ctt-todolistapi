@@ -1,0 +1,47 @@
+version: "3.2"
+services:
+  datascience-notebook:
+    image: jupyter/pptam-datascience-notebook
+    volumes:
+      - ./notebooks:/home/jovyan/work
+    ports:
+      - 8888:8888
+    environment:
+      - POSTGRES_USERNAME=postgres
+      - POSTGRES_PASSWORD=postgres
+      - DB_NAME=pptam      
+      - HOST_NAME=host.docker.internal
+    extra_hosts:
+      - "host.docker.internal:172.17.0.1" #https://stackoverflow.com/questions/31249112/allow-docker-container-to-connect-to-a-local-host-postgres-database    
+    entrypoint: start.sh jupyter lab --ServerApp.token=
+
+  db:
+    image: "postgres:alpine"
+    command: postgres -c 'max_connections=200'
+    restart: always
+    environment:
+      POSTGRES_DB: pptam
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      PGDATA: /var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    volumes:
+      - db-data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  pgadmin:
+     image: dpage/pgadmin4
+     restart: always
+     environment:
+       PGADMIN_DEFAULT_EMAIL: "user@domain.com"
+       PGADMIN_DEFAULT_PASSWORD: "postgres"
+       PGADMIN_LISTEN_PORT: 80
+     ports:
+       - "80:80"
+     volumes:
+       - pgadmin-data:/var/lib/pgadmin
+
+volumes:
+  db-data:
+  pgadmin-data:

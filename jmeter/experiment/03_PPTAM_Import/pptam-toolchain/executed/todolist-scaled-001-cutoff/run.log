@@ -1,0 +1,125 @@
+2021-05-31 16:19:55,154 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-05-31 16:19:55,219 INFO o.a.j.JMeter: Setting JMeter property: HOST=bkjivqp9s0.execute-api.eu-central-1.amazonaws.com
+2021-05-31 16:19:55,219 INFO o.a.j.JMeter: Setting JMeter property: PATH=/production/todos
+2021-05-31 16:19:55,219 INFO o.a.j.JMeter: Setting JMeter property: PORT=443
+2021-05-31 16:19:55,221 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2021-05-31 16:19:55,221 INFO o.a.j.JMeter: Version 5.2.1
+2021-05-31 16:19:55,221 INFO o.a.j.JMeter: java.version=11.0.9
+2021-05-31 16:19:55,221 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2021-05-31 16:19:55,221 INFO o.a.j.JMeter: os.name=Linux
+2021-05-31 16:19:55,222 INFO o.a.j.JMeter: os.arch=amd64
+2021-05-31 16:19:55,222 INFO o.a.j.JMeter: os.version=5.3.0-1023-aws
+2021-05-31 16:19:55,222 INFO o.a.j.JMeter: file.encoding=UTF-8
+2021-05-31 16:19:55,222 INFO o.a.j.JMeter: java.awt.headless=true
+2021-05-31 16:19:55,224 INFO o.a.j.JMeter: Max memory     =1073741824
+2021-05-31 16:19:55,224 INFO o.a.j.JMeter: Available Processors =2
+2021-05-31 16:19:55,237 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-05-31 16:19:55,239 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-05-31 16:19:55,239 INFO o.a.j.JMeter: JMeterHome=/opt/radon-ctt-agent/plugins/jmeter/apache-jmeter-5.2.1
+2021-05-31 16:19:55,239 INFO o.a.j.JMeter: user.dir  =/opt/radon-ctt-agent
+2021-05-31 16:19:55,239 INFO o.a.j.JMeter: PWD       =/opt/radon-ctt-agent
+2021-05-31 16:19:55,240 INFO o.a.j.JMeter: IP: 172.17.0.2 Name: f57b30992956 FullName: f57b30992956
+2021-05-31 16:19:55,244 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/opt/radon-ctt-agent/jmeter/95e633b2-4ced-42b0-a242-a97d70233ad3/b3bb946d-2e63-4684-9f4c-bb375cde801c/dashboard'
+2021-05-31 16:19:55,250 INFO o.a.j.s.FileServer: Default base='/opt/radon-ctt-agent'
+2021-05-31 16:19:55,253 INFO o.a.j.s.FileServer: Set new base='/opt/radon-ctt-agent/jmeter/95e633b2-4ced-42b0-a242-a97d70233ad3/config/resources'
+2021-05-31 16:19:55,543 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2021-05-31 16:19:55,556 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2021-05-31 16:19:55,560 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2021-05-31 16:19:55,564 INFO o.a.j.s.SaveService: Loading file: /opt/radon-ctt-agent/jmeter/95e633b2-4ced-42b0-a242-a97d70233ad3/config/resources/loadtest.jmx
+2021-05-31 16:19:56,002 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2021-05-31 16:19:56,002 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: /opt/radon-ctt-agent/jmeter/95e633b2-4ced-42b0-a242-a97d70233ad3/b3bb946d-2e63-4684-9f4c-bb375cde801c/sample_results.jtl
+2021-05-31 16:19:56,002 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /opt/radon-ctt-agent/plugins/jmeter/apache-jmeter-5.2.1/bin/reportgenerator.properties
+2021-05-31 16:19:56,003 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2021-05-31 16:19:56,009 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2021-05-31 16:19:56,009 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_satisfied_threshold' not found, using default value '500' instead.
+2021-05-31 16:19:56,009 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_tolerated_threshold' not found, using default value '1500' instead.
+2021-05-31 16:19:56,009 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2021-05-31 16:19:56,009 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2021-05-31 16:19:56,012 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2021-05-31 16:19:56,013 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2021-05-31 16:19:56,013 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2021-05-31 16:19:56,013 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2021-05-31 16:19:56,013 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2021-05-31 16:19:56,013 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2021-05-31 16:19:56,018 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2021-05-31 16:19:56,018 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-05-31 16:19:56,018 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2021-05-31 16:19:56,019 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2021-05-31 16:19:56,019 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2021-05-31 16:19:56,019 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2021-05-31 16:19:56,019 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-05-31 16:19:56,019 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-05-31 16:19:56,020 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-05-31 16:19:56,020 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-05-31 16:19:56,021 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2021-05-31 16:19:56,021 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2021-05-31 16:19:56,021 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2021-05-31 16:19:56,022 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2021-05-31 16:19:56,022 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2021-05-31 16:19:56,022 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2021-05-31 16:19:56,031 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2021-05-31 16:19:56,038 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-05-31 16:19:56,039 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-05-31 16:19:56,592 INFO o.a.j.JMeter: Running test (1622477996592)
+2021-05-31 16:19:56,645 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2021-05-31 16:19:56,646 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2021-05-31 16:19:56,646 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-05-31 16:19:56,646 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=120 delayedStart=false
+2021-05-31 16:19:56,650 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2021-05-31 16:19:56,650 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2021-05-31 16:19:56,655 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2021-05-31 16:20:02,872 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = f57b30992956
+2021-05-31 16:20:02,881 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2021-05-31 16:20:02,882 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are END times
+2021-05-31 16:20:02,882 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2021-05-31 16:20:02,882 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2021-05-31 16:20:02,882 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2021-05-31 16:20:03,049 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2021-05-31 16:20:03,055 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2021-05-31 16:20:03,055 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2021-05-31 16:20:03,167 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2021-05-31 16:20:03,170 INFO o.a.j.u.SSLManager: KeyStore created OK
+2021-05-31 16:20:03,170 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2021-05-31 16:33:52,212 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2021-05-31 16:33:52,212 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2021-05-31 16:33:52,219 INFO o.a.j.JMeter: Generating Dashboard
+2021-05-31 16:33:52,219 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2021-05-31 16:33:52,231 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2021-05-31 16:33:52,241 ERROR o.a.j.r.d.ReportGenerator: Cannot assign "${jmeter.reportgenerator.apdex_satisfied_threshold}" to property "set_satisfied_threshold" (mapped as "setSatisfiedThreshold"), skip it
+org.apache.jmeter.report.core.ConvertException: Unable to convert "${jmeter.reportgenerator.apdex_satisfied_threshold}" to "java.lang.Long"
+	at org.apache.jmeter.report.core.Converters.lambda$static$4(Converters.java:80) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.report.dashboard.ReportGenerator.setProperty(ReportGenerator.java:537) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.report.dashboard.ReportGenerator.addGraphConsumer(ReportGenerator.java:349) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.report.dashboard.ReportGenerator.generate(ReportGenerator.java:236) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.JMeter$ListenToTest.endTest(JMeter.java:1330) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.JMeter$ListenToTest.testEnded(JMeter.java:1286) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfEnd(StandardJMeterEngine.java:218) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:492) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NumberFormatException: For input string: "${jmeter.reportgenerator.apdex_satisfied_threshold}"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[?:?]
+	at java.lang.Long.parseLong(Long.java:678) ~[?:?]
+	at java.lang.Long.valueOf(Long.java:1144) ~[?:?]
+	at org.apache.jmeter.report.core.Converters.lambda$static$4(Converters.java:78) ~[ApacheJMeter_core.jar:5.2.1]
+	... 8 more
+2021-05-31 16:33:52,248 ERROR o.a.j.JMeter: Error generating the report: Cannot assign "${jmeter.reportgenerator.apdex_satisfied_threshold}" to property "set_satisfied_threshold" (mapped as "setSatisfiedThreshold"), skip it
+org.apache.jmeter.report.dashboard.GenerationException: Cannot assign "${jmeter.reportgenerator.apdex_satisfied_threshold}" to property "set_satisfied_threshold" (mapped as "setSatisfiedThreshold"), skip it
+	at org.apache.jmeter.report.dashboard.ReportGenerator.setProperty(ReportGenerator.java:550) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.report.dashboard.ReportGenerator.addGraphConsumer(ReportGenerator.java:349) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.report.dashboard.ReportGenerator.generate(ReportGenerator.java:236) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.JMeter$ListenToTest.endTest(JMeter.java:1330) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.JMeter$ListenToTest.testEnded(JMeter.java:1286) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfEnd(StandardJMeterEngine.java:218) [ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:492) [ApacheJMeter_core.jar:5.2.1]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: org.apache.jmeter.report.core.ConvertException: Unable to convert "${jmeter.reportgenerator.apdex_satisfied_threshold}" to "java.lang.Long"
+	at org.apache.jmeter.report.core.Converters.lambda$static$4(Converters.java:80) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.report.dashboard.ReportGenerator.setProperty(ReportGenerator.java:537) ~[ApacheJMeter_core.jar:5.2.1]
+	... 7 more
+Caused by: java.lang.NumberFormatException: For input string: "${jmeter.reportgenerator.apdex_satisfied_threshold}"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[?:?]
+	at java.lang.Long.parseLong(Long.java:678) ~[?:?]
+	at java.lang.Long.valueOf(Long.java:1144) ~[?:?]
+	at org.apache.jmeter.report.core.Converters.lambda$static$4(Converters.java:78) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.report.dashboard.ReportGenerator.setProperty(ReportGenerator.java:537) ~[ApacheJMeter_core.jar:5.2.1]
+	... 7 more
